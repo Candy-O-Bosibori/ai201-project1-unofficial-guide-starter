@@ -1,0 +1,44 @@
+SOURCE_URL: https://dining.williams.edu/
+TITLE: Williams Dining Services — Halls, Hours, and Mobile Ordering
+TYPE: official-practical
+RETRIEVED: 2026-06-09
+---
+# Williams Dining Services
+
+Williams Dining Services operates several dining halls and mobile-ordering venues across campus. Contact: 413.597.2121 | Droppers House, 15 Park Street, Williamstown, MA 01267. Menus and nutrition information are available through the NutriSlice platform.
+
+## Dining Halls
+
+### Driscoll
+Open daily (Sunday through Saturday).
+- Breakfast: 7:30–10:30 am
+- Lunch: 11:30 am–2:00 pm
+- Dinner: 5:00–8:00 pm
+
+### Mission Park
+- Sunday: Brunch 11:30 am–1:30 pm, Dinner 4:30–6:30 pm
+- Monday–Thursday: Dinner 5:00–8:00 pm
+
+### Whitmans'
+- Monday–Friday: Breakfast 7:30–10:30 am, Lunch 11:30 am–2:00 pm, Dinner 5:00–9:00 pm, Late Night 9:30 pm–1:00 am
+- Saturday–Sunday: Brunch 11:00 am–2:00 pm, Dinner 5:00–9:00 pm, Late Night 9:30 pm–1:00 am
+
+Whitmans' is the only dining hall offering late-night service, running until 1:00 am every day of the week.
+
+## Mobile Ordering Only Venues
+
+Students access mobile ordering through the GET App using their Williams credentials.
+
+### 82 Grill
+- Monday–Friday: Lunch 11:00 am–3:00 pm
+- Wednesday–Sunday: Dinner 4:00–8:00 pm
+
+### Lee Snack Bar
+- Monday–Friday: Breakfast 7:30–10:30 am, Lunch 11:30 am–2:00 pm, Mid-Day 2:00–5:00 pm, Dinner 5:30–8:00 pm
+
+### Fresh 'n Go
+- Monday–Friday: Lunch 11:00 am–2:00 pm
+
+### Eco Cafe
+- Monday–Friday: Breakfast 7:30–10:30 am, Lunch 11:00 am–2:00 pm
+- Operates with mobile pre-ordering; orders due by 5 pm for next-day pickup.
