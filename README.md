@@ -88,6 +88,18 @@ The model also receives `temperature=0` to eliminate creative variation that mig
 
 Source attribution is **programmatically guaranteed** — it does not depend on the model behaving correctly. After generation, `src/generate.py` builds the `sources` list directly from the retrieved-chunk metadata (deduplicated by title, ordered by retrieval rank) and returns it alongside the model's answer. Even if the model refused to cite anything, or cited incorrectly, the source list in the API response and UI would still accurately reflect which documents were retrieved and passed as context. In the Gradio UI, the sources box is populated from this programmatic list, and the chunks inspector shows the raw retrieved text with its `doc_id` for full transparency.
 
+**Retrieval quality indicator (UI):**
+
+The Gradio interface also displays a single **Retrieval quality** line after every query, derived from the cosine distance of the top-ranked chunk:
+
+| Score range | Label shown |
+|---|---|
+| ≤ 0.45 | ✅ Strong match |
+| 0.45 – 0.57 | ⚠️ Fair match — answer may be partial |
+| > 0.57 | ❌ Weak match — topic may not be in the documents |
+
+This gives the user an immediate signal about whether the system found genuinely relevant content before reading the answer. Queries covered by the corpus (Mountain Day, spring weather, dining hours) show ✅ Strong. Queries outside the corpus (e.g. "Where can I park my car on campus?", score 0.634) show ❌ Weak and the model correctly responds "The documents don't cover this topic." — confirming that the grounding and the quality signal agree.
+
 ---
 
 ## Evaluation Report
